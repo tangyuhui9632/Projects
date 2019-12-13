@@ -1,0 +1,82 @@
+min_support = 0.05
+
+     support             itemsets
+0   0.174049             (Action)
+1   0.178218          (Adventure)
+2   0.069828          (Animation)
+3   0.110995          (Biography)
+4   0.289213             (Comedy)
+5   0.211047              (Crime)
+6   0.684732              (Drama)
+7   0.067744            (Fantasy)
+8   0.053153             (Horror)
+9   0.091193            (Mystery)
+10  0.164148            (Romance)
+11  0.072434             (Sci-Fi)
+12  0.154247           (Thriller)
+13  0.071912  (Adventure, Action)
+14  0.055758      (Action, Crime)
+15  0.055758      (Action, Drama)
+16  0.056800  (Adventure, Comedy)
+17  0.057843   (Adventure, Drama)
+18  0.105784   (Drama, Biography)
+19  0.150078      (Comedy, Drama)
+20  0.064096    (Comedy, Romance)
+21  0.152163       (Drama, Crime)
+22  0.058364    (Crime, Thriller)
+23  0.057322     (Mystery, Drama)
+24  0.138614     (Drama, Romance)
+25  0.079208    (Drama, Thriller)
+
+min_support = 0.1
+
+     support            itemsets
+0   0.174049            (Action)
+1   0.178218         (Adventure)
+2   0.110995         (Biography)
+3   0.289213            (Comedy)
+4   0.211047             (Crime)
+5   0.684732             (Drama)
+6   0.164148           (Romance)
+7   0.154247          (Thriller)
+8   0.105784  (Drama, Biography)
+9   0.150078     (Comedy, Drama)
+10  0.152163      (Drama, Crime)
+11  0.138614    (Drama, Romance)
+
+Association Rules:
+   antecedents  consequents  antecedent support  consequent support   support  \
+0      (Drama)  (Biography)            0.684732            0.110995  0.105784   
+1  (Biography)      (Drama)            0.110995            0.684732  0.105784   
+2     (Comedy)      (Drama)            0.289213            0.684732  0.150078   
+3      (Drama)     (Comedy)            0.684732            0.289213  0.150078   
+4      (Drama)      (Crime)            0.684732            0.211047  0.152163   
+5      (Crime)      (Drama)            0.211047            0.684732  0.152163   
+6      (Drama)    (Romance)            0.684732            0.164148  0.138614   
+7    (Romance)      (Drama)            0.164148            0.684732  0.138614   
+
+   confidence      lift  leverage  conviction  
+0    0.154490  1.391862  0.029782    1.051442  
+1    0.953052  1.391862  0.029782    6.715216  
+2    0.518919  0.757843 -0.047955    0.655333  
+3    0.219178  0.757843 -0.047955    0.910306  
+4    0.222222  1.052949  0.007652    1.014368  
+5    0.720988  1.052949  0.007652    1.129944  
+6    0.202435  1.233249  0.026217    1.048005  
+7    0.844444  1.233249  0.026217    2.026725  
+
+min_support = 0.2
+
+    support  itemsets
+0  0.289213  (Comedy)
+1  0.211047   (Crime)
+2  0.684732   (Drama)
+
+min_support = 0.4
+
+    support itemsets
+0  0.684732  (Drama)
+
+min_support = 0.8
+
+The minimum support level is too high. Frequent Itemsets is empty!
